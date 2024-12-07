@@ -1,0 +1,28 @@
+name: ramen_kiosk
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  shared_preferences: ^2.3.3
+  video_player: ^2.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/login.mp4
+    - assets/1a.jpeg
+    - assets/1b.jpeg
+    - assets/1c.jpeg
+    - assets/register.jpeg
